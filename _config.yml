@@ -1,0 +1,70 @@
+# Site Settings
+title: Aiken Camellia Society
+email: contact@aikencamellias.org
+description: >-
+  The Aiken Camellia Society is dedicated to promoting the appreciation, 
+  cultivation, and preservation of camellias in the Aiken, South Carolina area.
+url: "https://aikencamellias.org"
+baseurl: ""
+repository: "AikenCamellias/github-pages"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "mint"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Site Author
+author:
+  name: "Aiken Camellia Society"
+  bio: "Promoting the appreciation and cultivation of camellias since establishment."
+  location: "Aiken, South Carolina"
+
+# Reading Files
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# Collections
+collections:
+  announcements:
+    output: true
+    permalink: /announcements/:path/
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Analytics (optional - add your tracking ID)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "UA-XXXXXXXX-X"

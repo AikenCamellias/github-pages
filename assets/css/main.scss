@@ -1,0 +1,58 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* Custom color scheme for Aiken Camellia Society */
+/* Camellia-inspired colors - adjust these to your preference */
+
+$primary-color: #c41e3a;        /* Camellia red */
+$secondary-color: #074727;      /* ACS green */
+$background-color: #f5f4e1;     /* Light background */
+$text-color: #074727;           /* Dark text */
+$link-color: #c41e3a;           /* Links match primary */
+$link-color-hover: #8b0000;     /* Darker red on hover */
+$masthead-link-color: #333333;
+$masthead-link-color-hover: $primary-color;
+$footer-background-color: #074727;
+
+/* Import the theme */
+@import "minimal-mistakes/skins/mint";
+@import "minimal-mistakes";
+
+/* Additional custom styles */
+.page__title {
+  color: $primary-color;
+}
+
+.masthead {
+  border-bottom: 2px solid $secondary-color;
+}
+
+.greedy-nav a {
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+/* Style tables nicely */
+table {
+  width: 100%;
+  margin-bottom: 1em;
+  
+  th {
+    background-color: $secondary-color;
+    color: white;
+    padding: 0.5em;
+  }
+  
+  td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+}

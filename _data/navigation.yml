@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Executive Committee"
+    url: /executive-committee/
+  - title: "Calendar"
+    url: /calendar/
+  - title: "Announcements"
+    url: /announcements/
+  - title: "Links"
+    url: /links/
