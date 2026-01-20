@@ -8,8 +8,6 @@ permalink: /announcements/
 
 Stay informed about the latest news from the Aiken Camellia Society.
 
----
-
 ## Latest News
 
 ### Welcome to Our New Website

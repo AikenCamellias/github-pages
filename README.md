@@ -44,14 +44,3 @@ This site uses the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistak
 ## Deployment
 
 Push to the `main` branch to automatically deploy via GitHub Pages.
-
-## DNS Configuration
-
-To use the custom domain `aikencamellias.org`:
-1. The CNAME file is already configured
-2. Add these DNS records at your domain registrar:
-   - A record: `185.199.108.153`
-   - A record: `185.199.109.153`
-   - A record: `185.199.110.153`
-   - A record: `185.199.111.153`
-   - CNAME record: `www` -> `AikenCamellias.github.io`

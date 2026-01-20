@@ -18,12 +18,17 @@ A collection of resources for camellia enthusiasts.
 
 ## Local Resources
 
-- **[Aiken County Master Gardeners](https://www.clemson.edu/extension/mg/)** - Local gardening expertise
+- **[Aiken County Master Gardeners](https://aikenmastergardeners.org/)** - Local gardening expertise
 
-## Camellia Care Resources
+## Camellia Care and Identification Resources
 
 - **[Clemson Extension - Camellia](https://hgic.clemson.edu/factsheet/camellia/)** - Care and cultivation information
 - **[Camellia Nomenclature](https://www.americancamellias.com/publications-and-library/southern-california-camellia-society-nomenclature)** - Official camellia variety registry
+
+## Social Media
+
+- **[Instagram](https://www.instagram.com/theaikencamelliasociety)** - Follow us on Instagram for updates and photos
+- **[Facebook](https://www.facebook.com/aikencamelliasociety/)** - Like us on Facebook for updates and photos
 
 ## Nurseries and Suppliers
 
