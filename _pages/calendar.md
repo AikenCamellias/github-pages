@@ -12,7 +12,7 @@ Stay up to date with Aiken Camellia Society meetings, shows, and events.
 
 <!-- Option 1: Google Calendar Embed -->
 <!-- Replace the src URL with your Google Calendar embed URL -->
-<iframe src="https://calendar.google.com/calendar/embed?src=no-reply%40aikencamellias.org&ctz=America%2FNew_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=contact%40aikencamellias.org&ctz=America%2FNew_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 
 ---
 
