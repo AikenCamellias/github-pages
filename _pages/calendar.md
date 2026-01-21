@@ -18,7 +18,7 @@ Stay up to date with Aiken Camellia Society meetings, shows, and events.
 
 ### Regular Meetings
 
-**Monthly Meeting**: *We meet on the second Thursday evening of each month, October through March, from 6:30 p.m. to 7:30 p.m. at St. Thaddeus Episcopal Church Stevenson-McClelland Parlor, 125 Pendleton St. SW, Aiken, South Carolina 29801*
+**Monthly Meeting**: *We meet on the second Thursday evening of each month, October through March, from 6:30 PM to 7:30 PM at St. Thaddeus Episcopal Church Stevenson-McClelland Parlor, 125 Pendleton St. SW, Aiken, South Carolina 29801*
 
 ### Annual Events
 
