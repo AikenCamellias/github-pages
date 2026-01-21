@@ -8,6 +8,21 @@ permalink: /announcements/
 
 Stay informed about the latest news from the Aiken Camellia Society.
 
+## Upcoming Events
+
+{% if site.data.events.events.size > 0 %}
+| Date | Event | Location |
+|------|-------|----------|
+{% for event in site.data.events.events %}| {{ event.start | date: "%B %d, %Y" }} | {{ event.title }} | {{ event.location }} |
+{% endfor %}
+
+*Last updated: {{ site.data.events.last_updated | date: "%B %d, %Y at %I:%M %p" }} UTC*
+{% else %}
+*No upcoming events in the next 30 days. Check the [full calendar](/calendar/) for more.*
+{% endif %}
+
+---
+
 ## 2025 - 2026 Regular Meetings
 
 The Aiken Camellia Society meets the second Thursday evening of each month, October through March, from 6:30 PM to 7:30 PM at St. Thaddeus Episcopal Church Stevenson-McClelland Parlor, 125 Pendleton St. SW, Aiken, South Carolina 29801.
