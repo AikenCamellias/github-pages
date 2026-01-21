@@ -1,6 +1,54 @@
-# This file is automatically updated by the GitHub Action workflow.
-# Manual edits will be overwritten on the next scheduled run.
-# To trigger an update manually, go to Actions > Update Calendar Events > Run workflow
+events:
+- description: Blooms are entered on Saturday January 24th from 7:00 AM to 9:30 AM
+    and there is no entry fee, Club members will be on hand to assist newcomers and
+    we sincerely encourage everyone to enter.<br><br>Gardeners wishing to identify
+    their camellias are encouraged to bring them for identification. If they can be<br>properly
+    identified and arrive at the show before 9:30 AM, they are eligible for entry.
+    Prizes are awarded to winning blooms. We hope to see you there!<br><br><a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Charleston%20Show%20Schedule%20-%202026.pdf">https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Charleston%20Show%20Schedule%20-%202026.pdf</a>
+  end: '2026-01-26'
+  location: Magnolia Plantation and Gardens, Charleston, SC 29414, USA
+  start: '2026-01-24'
+  title: Coastal Carolina Camellia Society Spring Show
+- description: <p>You will hear the fascinating history of the genus- its origins
+    in China, Korea and Japan- and the circumstances surrounding its arrival in Europe
+    then America.</p><p>Kirk will share little known facts about the origins of varieties,
+    soil and amendment suggestions and pruning.</p><br>Ticket includes a live one
+    gallon camellia, a light breakfast, and admission to the Show and Sale the same
+    day.<br><br><a href="https://aikenantiqueshow.com/product/camellias/">https://aikenantiqueshow.com/product/camellias/</a>
+  end: '2026-02-07T10:30:00-05:00'
+  location: Aiken Center For the Arts, 122 Laurens St SW, Aiken, SC 29801, USA
+  start: '2026-02-07T09:30:00-05:00'
+  title: Camellias by Garden Historian Kirkland Moore
+- description: Show entries are received from 7:00 AM - 10:00 AM and the show will
+    open to the public from 1:00 PM to 4:30 PM<br><br><a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Augusta%20Show%20Schedule%20-%202026.pdf">https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Augusta%20Show%20Schedule%20-%202026.pdf</a>
+  end: '2026-02-07T16:30:00-05:00'
+  location: Reid Memorial Presbyterian Church, 2261 Walton Wy, Augusta, GA 30904,
+    USA
+  start: '2026-02-07T13:00:00-05:00'
+  title: Augusta Camellia Show
+- description: 'Thursday February 12th, 2026
 
-last_updated: '2026-01-21T00:00:00+00:00'
-events: []
+    Magnolia Dale, from 2:00 PM - 4:00 PM
+
+
+    The Edgefield Camellia Club hosts its traditional tea, sponsored by the Edgefield
+    Camellia Club. Don''t miss out on this opportunity to see hundreds of camellia
+    blooms presented in the rooms of Magnolia Dale, an antebellum home that is the
+    headquarters of the Edgefield Historical Society. Gene Phillips of Gene''s Camellia
+    World will also have his plants for sale at the Edgefield Discovery Center.'
+  end: '2026-02-12T16:00:00-05:00'
+  location: 320 Norris St, Edgefield, SC 29824, USA
+  start: '2026-02-12T14:00:00-05:00'
+  title: Edgefield Camellia Tea
+- description: 'Stevenson McClelland Building, St. Thaddeus Episcopal Church from
+    6:30 - 7:30 
+
+
+    Join us for an evening of Camellias and spirited bidding! We will have many different
+    Camellias donated for auction grown by our own club members. From popular, antique,
+    rare, and newly released varieties, there will be something for everyone!'
+  end: '2026-02-12T19:30:00-05:00'
+  location: 129 Pendleton St SW, Aiken, SC 29801, USA
+  start: '2026-02-12T18:30:00-05:00'
+  title: 'Monthly Meeting: Auction'
+last_updated: '2026-01-21T23:25:08.998368+00:00'
