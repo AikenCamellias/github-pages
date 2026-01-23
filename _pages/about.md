@@ -39,3 +39,5 @@ For membership information, please contact us at [contact@aikencamellias.org](ma
 ## Meeting Information
 
 The Aiken Camellia Society meets the second Thursday evening of each month, October through March, from 6:30 PM to 7:30 PM at St. Thaddeus Episcopal Church Stevenson-McClelland Parlor, 125 Pendleton St. SW, Aiken, South Carolina 29801.
+
+{% include social-footer.html %}

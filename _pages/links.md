@@ -4,8 +4,6 @@ title: "Links"
 permalink: /links/
 ---
 
-# Useful Links
-
 A collection of resources for camellia enthusiasts.
 
 ---
@@ -37,3 +35,5 @@ A collection of resources for camellia enthusiasts.
 ---
 
 *Have a link to suggest? Contact us at [contact@aikencamellias.org](mailto:contact@aikencamellias.org).*
+
+{% include social-footer.html %}

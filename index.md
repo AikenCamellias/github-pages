@@ -19,3 +19,5 @@ Whether you're a seasoned camellia grower or just discovering these beautiful pl
 ---
 
 *Check our [Calendar](/calendar/) for upcoming events and meetings.*
+
+{% include social-footer.html %}

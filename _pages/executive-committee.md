@@ -4,8 +4,6 @@ title: "Executive Committee"
 permalink: /executive-committee/
 ---
 
-# Executive Committee
-
 The Aiken Camellia Society is led by a dedicated group of volunteers who work to advance our mission and serve our members.
 
 ## 2025 - 2026 Officers
@@ -37,3 +35,5 @@ The Aiken Camellia Society is led by a dedicated group of volunteers who work to
 ---
 
 *Interested in serving on the Executive Committee? Contact us at [contact@aikencamellias.org](mailto:contact@aikencamellias.org).*
+
+{% include social-footer.html %}

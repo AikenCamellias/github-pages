@@ -4,8 +4,6 @@ title: "Calendar"
 permalink: /calendar/
 ---
 
-# Events Calendar
-
 Stay up to date with Aiken Camellia Society meetings, shows, and events.
 
 ## Calendar
@@ -31,3 +29,5 @@ Stay up to date with Aiken Camellia Society meetings, shows, and events.
 ---
 
 *For the most current information, please check back regularly or contact us at [contact@aikencamellias.org](mailto:contact@aikencamellias.org).*
+
+{% include social-footer.html %}

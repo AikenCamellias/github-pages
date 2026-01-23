@@ -37,12 +37,14 @@ def fetch_events():
 
     events = []
     for event in events_result.get('items', []):
+        all_day = 'date' in event['start'] and 'dateTime' not in event['start']
         start = event['start'].get('dateTime', event['start'].get('date'))
         end = event['end'].get('dateTime', event['end'].get('date'))
         events.append({
             'title': event.get('summary', 'Untitled Event'),
             'start': start,
             'end': end,
+            'all_day': all_day,
             'location': event.get('location', ''),
             'description': event.get('description', '')
         })
