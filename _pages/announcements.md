@@ -11,7 +11,7 @@ Stay informed about the latest news from the Aiken Camellia Society.
 {% if site.data.events.events.size > 0 %}
 | Date | Time | Event | Location |
 |------|------|-------|----------|
-{% for event in site.data.events.events %}| {{ event.start | date: "%B %d, %Y" }} | {% if event.all_day %}See calendar{% else %}{{ event.start | date: "%I:%M %p" }} - {{ event.end | date: "%I:%M %p" }}{% endif %} | {{ event.title }} | {{ event.location }} |
+{% for event in site.data.events.events %}| {{ event.start | date: "%B %d, %Y" }} | {{ event.start | date: "%I:%M %p" }} - {{ event.end | date: "%I:%M %p" }} | {{ event.title }} | {{ event.location }} |
 {% endfor %}
 
 *Last updated: {{ site.data.events.last_updated | date: "%B %d, %Y at %I:%M %p" }} UTC*
