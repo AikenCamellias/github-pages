@@ -60,7 +60,7 @@ collections:
     permalink: /announcements/:path/
 
 # Pagination
-paginate: 5
+paginate: 3
 paginate_path: /page:num/
 
 # Analytics (optional - add your tracking ID)
