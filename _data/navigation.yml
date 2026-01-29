@@ -3,11 +3,9 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Events"
+    url: /events/
   - title: "Executive Committee"
     url: /executive-committee/
-  - title: "Calendar"
-    url: /calendar/
-  - title: "Announcements"
-    url: /announcements/
   - title: "Links"
     url: /links/

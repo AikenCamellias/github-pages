@@ -4,15 +4,24 @@
 
 @charset "utf-8";
 
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+/* Font variables */
+$serif: "Libre Baskerville", Georgia, Times, serif;
+$sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$global-font-family: $sans-serif;
+$header-font-family: $serif;
+
 /* Custom color scheme for Aiken Camellia Society */
 /* Camellia-inspired colors - adjust these to your preference */
 
-$primary-color: #c41e3a;        /* Camellia red */
-$secondary-color: #074727;      /* ACS green */
-$background-color: #f5f4e1;     /* Light background */
-$text-color: #074727;           /* Dark text */
-$link-color: #c41e3a;           /* Links match primary */
-$link-color-hover: #8b0000;     /* Darker red on hover */
+$primary-color: #8b0000;        
+$secondary-color: #074727;      
+$background-color: #f5f4e1;     
+$text-color: #074727;           
+$link-color: #8b0000;           
+$link-color-hover: #8b00003c;    
 $masthead-link-color: #333333;
 $masthead-link-color-hover: $primary-color;
 $footer-background-color: #074727;
@@ -30,9 +39,13 @@ $footer-background-color: #074727;
   border-bottom: 2px solid $secondary-color;
 }
 
-.greedy-nav a {
-  &:hover {
-    color: $primary-color;
+.greedy-nav {
+  font-family: $serif;
+  
+  a {
+    &:hover {
+      color: $primary-color;
+    }
   }
 }
 

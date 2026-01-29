@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Announcements"
-permalink: /announcements/
+title: "Events"
+permalink: /events/
 ---
 
-Stay informed about the latest news from the Aiken Camellia Society.
+Stay up to date with Aiken Camellia Society meetings, shows, and events.
 
 ## Upcoming Events
 
@@ -16,12 +16,12 @@ Stay informed about the latest news from the Aiken Camellia Society.
 
 *Last updated: {{ site.data.events.last_updated | date: "%B %d, %Y at %I:%M %p" }} UTC*
 {% else %}
-*No upcoming events in the next 30 days. Check the [full calendar](/calendar/) for more.*
+*No upcoming events in the next 30 days.*
 {% endif %}
 
 ---
 
-## 2025 - 2026 Regular Meetings
+## 2025 - 2026 Program Schedule
 
 The Aiken Camellia Society meets the second Thursday evening of each month, October through March, from 6:30 PM to 7:30 PM at St. Thaddeus Episcopal Church Stevenson-McClelland Parlor, 125 Pendleton St. SW, Aiken, South Carolina 29801.
 
@@ -36,6 +36,22 @@ The Aiken Camellia Society meets the second Thursday evening of each month, Octo
 
 ---
 
-*Have an announcement to share? Contact us at [contact@aikencamellias.org](mailto:contact@aikencamellias.org).*
+## Calendar
+
+<iframe src="https://calendar.google.com/calendar/embed?src=contact%40aikencamellias.org&ctz=America%2FNew_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+---
+
+### Annual Events
+
+| Event | Date | Location |
+|-------|------|----------|
+| The Aiken Camellia Show | *The Second Saturday in January* | *First Presbyterian Church* |
+| Club Camellia Auction | *February's club meeting* | *St. Thaddeus Episcopal Church* |
+| Lookaway Hall Camellia Exhibition | *The first or second Saturday in March, check the calendar for the exact date* | *Lookaway Hall* |
+
+---
+
+*For the most current information, please check back regularly.*
 
 {% include social-footer.html %}
