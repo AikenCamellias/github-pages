@@ -2,7 +2,7 @@ name: Update Calendar Events
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Runs daily at 6 AM UTC
+    - cron: '0 11 * * *'  # Runs daily at 6 AM EST (11 AM UTC)
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -21,13 +21,21 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install google-api-python-client pyyaml
+        run: pip install google-api-python-client pyyaml requests
 
       - name: Fetch calendar events
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           CALENDAR_ID: contact@aikencamellias.org
         run: python scripts/fetch_calendar_events.py
+
+      - name: Send event reminders
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          CALENDAR_ID: contact@aikencamellias.org
+          TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+        run: python scripts/send_event_reminders.py
 
       - name: Commit changes
         run: |
