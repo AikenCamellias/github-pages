@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Send email reminders for events occurring 1 or 2 weeks from today.
+Send email reminders for all events occurring in the next 2 weeks.
 
 Requires:
     - GOOGLE_API_KEY environment variable
@@ -16,7 +16,6 @@ from googleapiclient.discovery import build
 
 BREVO_LIST_ID_PROD = 4  # "Email Form" list (production)
 BREVO_LIST_ID_TEST = 5  # Test list (manual dispatch)
-BREVO_SENDER_ID = 1  # contact@aikencamellias.org
 BREVO_SENDER_EMAIL = "contact@aikencamellias.org"
 BREVO_SENDER_NAME = "Aiken Camellia Society"
 
@@ -50,35 +49,45 @@ def format_event_date(date_str):
     try:
         if 'T' in date_str:
             dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
-            return dt.strftime('%B %d, %Y at %I:%M %p')
+            return dt.strftime('%A, %B %d, %Y at %I:%M %p')
         else:
             dt = datetime.strptime(date_str, '%Y-%m-%d')
-            return dt.strftime('%B %d, %Y')
+            return dt.strftime('%A, %B %d, %Y')
     except Exception:
         return date_str
 
 
-def create_email_html(events, weeks_notice):
+def format_short_date(date_str):
+    """Format event date for subject line."""
+    try:
+        if 'T' in date_str:
+            dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        else:
+            dt = datetime.strptime(date_str, '%Y-%m-%d')
+        return dt.strftime('%b %d')
+    except Exception:
+        return date_str
+
+
+def create_email_html(events):
     """Create HTML email content for event reminders."""
-    notice_text = "one week" if weeks_notice == 1 else "two weeks"
-    
-    html = f"""
+    html = """
     <html>
     <head>
         <style>
-            body {{ font-family: 'Lato', Arial, sans-serif; color: #333; line-height: 1.6; }}
-            h1 {{ color: #2e7d32; font-family: 'Libre Baskerville', Georgia, serif; }}
-            h2 {{ color: #1b5e20; font-family: 'Libre Baskerville', Georgia, serif; }}
-            .event {{ background: #f5f5f5; padding: 20px; margin: 15px 0; border-left: 4px solid #2e7d32; }}
-            .event-title {{ font-size: 1.2em; font-weight: bold; color: #1b5e20; }}
-            .event-details {{ margin-top: 10px; }}
-            .label {{ font-weight: bold; color: #555; }}
-            .footer {{ margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666; }}
+            body { font-family: 'Lato', Arial, sans-serif; color: #333; line-height: 1.6; }
+            h1 { color: #2e7d32; font-family: 'Libre Baskerville', Georgia, serif; }
+            h2 { color: #1b5e20; font-family: 'Libre Baskerville', Georgia, serif; }
+            .event { background: #f5f5f5; padding: 20px; margin: 15px 0; border-left: 4px solid #2e7d32; }
+            .event-title { font-size: 1.2em; font-weight: bold; color: #1b5e20; }
+            .event-details { margin-top: 10px; }
+            .label { font-weight: bold; color: #555; }
+            .footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666; }
         </style>
     </head>
     <body>
-        <h1>Aiken Camellia Society Event Reminder</h1>
-        <p>This is a friendly reminder that the following event(s) are coming up in {notice_text}:</p>
+        <h1>Aiken Camellia Society - Upcoming Events</h1>
+        <p>Here are the upcoming events for the next two weeks:</p>
     """
     
     for event in events:
@@ -110,12 +119,10 @@ def create_email_html(events, weeks_notice):
     return html
 
 
-def create_email_text(events, weeks_notice):
+def create_email_text(events):
     """Create plain text email content for event reminders."""
-    notice_text = "one week" if weeks_notice == 1 else "two weeks"
-    
-    text = f"AIKEN CAMELLIA SOCIETY EVENT REMINDER\n\n"
-    text += f"This is a friendly reminder that the following event(s) are coming up in {notice_text}:\n\n"
+    text = "AIKEN CAMELLIA SOCIETY - UPCOMING EVENTS\n\n"
+    text += "Here are the upcoming events for the next two weeks:\n\n"
     
     for event in events:
         text += f"---\n"
@@ -135,17 +142,22 @@ def create_email_text(events, weeks_notice):
     return text
 
 
-def send_brevo_email(events, weeks_notice, brevo_api_key, test_mode=False):
+def send_brevo_email(events, brevo_api_key, test_mode=False):
     """Send email via Brevo API to the Email Form list."""
     list_id = BREVO_LIST_ID_TEST if test_mode else BREVO_LIST_ID_PROD
     mode_label = "[TEST] " if test_mode else ""
     
-    notice_text = "1 Week" if weeks_notice == 1 else "2 Weeks"
-    event_titles = ", ".join([e["title"] for e in events[:2]])
-    if len(events) > 2:
-        event_titles += f" and {len(events) - 2} more"
+    # Create subject with event count and date range
+    event_count = len(events)
+    first_date = format_short_date(events[0]['start'])
+    last_date = format_short_date(events[-1]['start'])
     
-    subject = f"{mode_label}Reminder: {event_titles} - {notice_text} Away"
+    if first_date == last_date:
+        date_range = first_date
+    else:
+        date_range = f"{first_date} - {last_date}"
+    
+    subject = f"{mode_label}Upcoming Events: {event_count} event{'s' if event_count > 1 else ''} ({date_range})"
     
     url = "https://api.brevo.com/v3/emailCampaigns"
     headers = {
@@ -155,7 +167,7 @@ def send_brevo_email(events, weeks_notice, brevo_api_key, test_mode=False):
     }
     
     payload = {
-        "name": f"{mode_label}Event Reminder - {datetime.now().strftime('%Y-%m-%d')} - {notice_text}",
+        "name": f"{mode_label}Weekly Event Reminder - {datetime.now().strftime('%Y-%m-%d')}",
         "subject": subject,
         "sender": {
             "name": BREVO_SENDER_NAME,
@@ -164,8 +176,8 @@ def send_brevo_email(events, weeks_notice, brevo_api_key, test_mode=False):
         "recipients": {
             "listIds": [list_id]
         },
-        "htmlContent": create_email_html(events, weeks_notice),
-        "textContent": create_email_text(events, weeks_notice)
+        "htmlContent": create_email_html(events),
+        "textContent": create_email_text(events)
     }
     
     print(f"Using {'TEST' if test_mode else 'PRODUCTION'} list (ID: {list_id})")
@@ -174,13 +186,13 @@ def send_brevo_email(events, weeks_notice, brevo_api_key, test_mode=False):
     
     if response.status_code == 201:
         campaign_id = response.json().get("id")
-        print(f"Created email campaign {campaign_id} for {weeks_notice}-week reminder")
+        print(f"Created email campaign {campaign_id}")
         
         send_url = f"https://api.brevo.com/v3/emailCampaigns/{campaign_id}/sendNow"
         send_response = requests.post(send_url, headers=headers)
         
         if send_response.status_code == 204:
-            print(f"Successfully sent {weeks_notice}-week reminder email")
+            print(f"Successfully sent weekly event reminder email")
             return True
         else:
             print(f"Failed to send campaign: {send_response.status_code} - {send_response.text}")
@@ -209,27 +221,16 @@ def main():
     
     now = datetime.now(timezone.utc)
     today_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    two_weeks_end = today_start + timedelta(days=14)
     
-    one_week = today_start + timedelta(days=7)
-    one_week_end = one_week + timedelta(days=1)
+    events = fetch_events_for_date_range(service, calendar_id, today_start, two_weeks_end)
     
-    two_weeks = today_start + timedelta(days=14)
-    two_weeks_end = two_weeks + timedelta(days=1)
+    print(f"Found {len(events)} event(s) in the next 2 weeks")
     
-    one_week_events = fetch_events_for_date_range(service, calendar_id, one_week, one_week_end)
-    two_week_events = fetch_events_for_date_range(service, calendar_id, two_weeks, two_weeks_end)
-    
-    print(f"Found {len(one_week_events)} event(s) in 1 week")
-    print(f"Found {len(two_week_events)} event(s) in 2 weeks")
-    
-    if one_week_events:
-        send_brevo_email(one_week_events, 1, brevo_api_key, test_mode)
-    
-    if two_week_events:
-        send_brevo_email(two_week_events, 2, brevo_api_key, test_mode)
-    
-    if not one_week_events and not two_week_events:
-        print("No events found for 1-week or 2-week reminders")
+    if events:
+        send_brevo_email(events, brevo_api_key, test_mode)
+    else:
+        print("No events found for the next 2 weeks - no email sent")
 
 
 if __name__ == '__main__':
