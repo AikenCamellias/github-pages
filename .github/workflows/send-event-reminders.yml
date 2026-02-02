@@ -22,7 +22,7 @@ jobs:
       - name: Send event reminders
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-          BREVO_API_KEY: ${{ secrets.BREVO }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           CALENDAR_ID: contact@aikencamellias.org
           TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python scripts/send_event_reminders.py
