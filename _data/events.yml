@@ -9,13 +9,12 @@ events:
   location: Aiken Center For the Arts, 122 Laurens St SW, Aiken, SC 29801, USA
   start: '2026-02-07T09:30:00-05:00'
   title: Camellias by Garden Historian Kirkland Moore
-- description: Show entries are received from 7:00 AM - 10:00 AM and the show will
-    open to the public from 1:00 PM to 4:30 PM<br><br><a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Augusta%20Show%20Schedule%20-%202026.pdf">https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Augusta%20Show%20Schedule%20-%202026.pdf</a>
-  end: '2026-02-07T16:30:00-05:00'
+- description: Plant sale begins at 9, exhibit, vendors and speakers begins at 1
+  end: '2026-02-07T16:00:00-05:00'
   location: Reid Memorial Presbyterian Church, 2261 Walton Wy, Augusta, GA 30904,
     USA
   start: '2026-02-07T13:00:00-05:00'
-  title: Augusta Camellia Show
+  title: Augusta Camellia Exhibition & Plant Sale
 - description: 'Thursday February 12th, 2026
 
     Magnolia Dale, from 2:00 PM - 4:00 PM
@@ -41,4 +40,11 @@ events:
   location: 129 Pendleton St SW, Aiken, SC 29801, USA
   start: '2026-02-12T18:30:00-05:00'
   title: 'Monthly Meeting: Auction'
-last_updated: '2026-02-01T19:32:31.468151+00:00'
+- description: Entries are from 8:00 AM - 10:30 AM. The show will open to the public
+    from 1:00 PM - 5:00 PM. See the full show program here: <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Murrells%20Inlet%20Show%20Schedule%20-%202026-II.pdf">https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Murrells%20Inlet%20Show%20Schedule%20-%202026-II.pdf</a>
+  end: '2026-02-14T14:00:00-05:00'
+  location: Murrells Inlet Community Center, 4462 Murrells Inlet Rd, Murrells Inlet,
+    SC 29576, USA
+  start: '2026-02-14T13:00:00-05:00'
+  title: Grand Strand Camellia Society Show
+last_updated: '2026-02-02T12:00:06.261909+00:00'
