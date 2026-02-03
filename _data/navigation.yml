@@ -7,5 +7,7 @@ main:
     url: /events/
   - title: "Executive Committee"
     url: /executive-committee/
+  - title: "Auction"
+    url: /auction/
   - title: "Links"
     url: /links/

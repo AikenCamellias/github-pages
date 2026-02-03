@@ -1,0 +1,113 @@
+---
+layout: single
+title: "Camellia Auction"
+permalink: /auction/
+---
+
+Welcome to the Aiken Camellia Society's annual camellia auction. Browse our selection of beautiful camellias available for bidding.
+
+{% for camellia in site.data.auction %}
+<div class="auction-slide">
+  <div class="auction-image">
+    <img src="{{ '/assets/images/auction/' | append: camellia.id | append: '.jpg' | relative_url }}" alt="{{ camellia.name }}">
+  </div>
+  <div class="auction-details">
+    <div class="auction-header">
+      <h2 class="auction-name">{{ camellia.name }}</h2>
+      {% if camellia.species and camellia.species != "" %}
+      <span class="auction-species">{{ camellia.species }}</span>
+      {% endif %}
+    </div>
+    
+    <div class="auction-attributes">
+      {% if camellia.color and camellia.color != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Color:</span>
+        <span class="attr-value">{{ camellia.color }}</span>
+      </div>
+      {% endif %}
+      
+      {% if camellia.form and camellia.form != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Form:</span>
+        <span class="attr-value">{{ camellia.form }}</span>
+      </div>
+      {% endif %}
+      
+      {% if camellia.size and camellia.size != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Size:</span>
+        <span class="attr-value">{{ camellia.size }}</span>
+      </div>
+      {% endif %}
+      
+      {% if camellia.season and camellia.season != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Season:</span>
+        <span class="attr-value">{{ camellia.season }}</span>
+      </div>
+      {% endif %}
+      
+      {% if camellia.rate and camellia.rate != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Growth Rate:</span>
+        <span class="attr-value">{{ camellia.rate }}</span>
+      </div>
+      {% endif %}
+      
+      {% if camellia.characteristics and camellia.characteristics != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Characteristics:</span>
+        <span class="attr-value">{{ camellia.characteristics }}</span>
+      </div>
+      {% endif %}
+      
+      {% if camellia.leaf and camellia.leaf != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Leaf:</span>
+        <span class="attr-value">{{ camellia.leaf }}</span>
+      </div>
+      {% endif %}
+    </div>
+    
+    <div class="auction-origin">
+      {% if camellia.originator and camellia.originator != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Originator:</span>
+        <span class="attr-value">{{ camellia.originator }}</span>
+      </div>
+      {% endif %}
+      
+      {% if camellia.place and camellia.place != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Place:</span>
+        <span class="attr-value">{{ camellia.place }}</span>
+      </div>
+      {% endif %}
+      
+      {% if camellia.year and camellia.year != "" %}
+      <div class="auction-attr">
+        <span class="attr-label">Year:</span>
+        <span class="attr-value">{{ camellia.year }}</span>
+      </div>
+      {% endif %}
+    </div>
+    
+    {% if camellia.heritage and camellia.heritage != "" %}
+    <div class="auction-heritage">
+      <span class="attr-label">Heritage:</span>
+      <span class="attr-value">{{ camellia.heritage }}</span>
+    </div>
+    {% endif %}
+    
+    {% if camellia.other and camellia.other != "" %}
+    <div class="auction-other">
+      <span class="attr-label">Notes:</span>
+      <span class="attr-value">{{ camellia.other }}</span>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+
+{% include social-footer.html %}
