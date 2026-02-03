@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install google-api-python-client pyyaml
+        run: pip install google-api-python-client pyyaml dotenv
 
       - name: Fetch calendar events
         env:

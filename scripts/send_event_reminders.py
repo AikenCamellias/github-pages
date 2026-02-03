@@ -12,7 +12,9 @@ import os
 import requests
 from datetime import datetime, timedelta, timezone
 from googleapiclient.discovery import build
+from dotenv import load_dotenv
 
+load_dotenv()
 
 BREVO_LIST_ID_PROD = 4  # "Email Form" list (production)
 BREVO_LIST_ID_TEST = 5  # Test list (manual dispatch)
