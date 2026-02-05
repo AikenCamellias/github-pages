@@ -9,7 +9,7 @@ Welcome to the Aiken Camellia Society's annual camellia auction. Browse our sele
 {% for camellia in site.data.auction %}
 <div class="auction-slide">
   <div class="auction-image">
-    <img src="{{ '/assets/images/auction/' | append: camellia.id | append: '.jpg' | relative_url }}" alt="{{ camellia.name }}">
+    <img src="{{ '/assets/images/auction/' | append: camellia.id | append: '.jpg' | relative_url }}" alt="{{ camellia.name }}" onerror="this.onerror=null; this.src='{{ '/assets/images/auction/default.jpg' | relative_url }}';">
   </div>
   <div class="auction-details">
     <div class="auction-header">
