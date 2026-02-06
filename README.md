@@ -12,7 +12,7 @@ _data/
   navigation.yml     # Main navigation menu
 _pages/
   about.md           # About the organization
-  executive-committee.md  # Leadership listing
+  board.md               # Leadership listing
   calendar.md        # Events calendar (supports embedded calendars)
   announcements.md   # News and announcements
   links.md           # Useful external links

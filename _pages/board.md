@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Executive Committee"
-permalink: /executive-committee/
+title: "Board"
+permalink: /board/
 ---
 
 The Aiken Camellia Society is led by a dedicated group of volunteers who work to advance our mission and serve our members.
@@ -34,6 +34,6 @@ The Aiken Camellia Society is led by a dedicated group of volunteers who work to
 
 ---
 
-*Interested in serving on the Executive Committee? Contact us at [contact@aikencamellias.org](mailto:contact@aikencamellias.org).*
+*Interested in serving on the Board? Contact us at [contact@aikencamellias.org](mailto:contact@aikencamellias.org).*
 
 {% include social-footer.html %}
