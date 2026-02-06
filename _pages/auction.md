@@ -4,7 +4,7 @@ title: "2026 Camellia Auction"
 permalink: /auction/
 ---
 
-Welcome to the Aiken Camellia Society's 2026 annual camellia auction. Browse our selection of beautiful camellias available for bidding.
+Join us for our 2026 annual camellia auction on February 12th, 2026 starting at 6:30 at St. Thaddeus Episcopal Church Stevenson-McClelland Parlor, 125 Pendleton St. SW.:wq Browse our selection of beautiful camellias available for bidding.
 
 {% for camellia in site.data.auction %}
 <div class="auction-slide">
