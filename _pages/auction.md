@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Camellia Auction"
+title: "2026 Camellia Auction"
 permalink: /auction/
 ---
 
-Welcome to the Aiken Camellia Society's annual camellia auction. Browse our selection of beautiful camellias available for bidding.
+Welcome to the Aiken Camellia Society's 2026 annual camellia auction. Browse our selection of beautiful camellias available for bidding.
 
 {% for camellia in site.data.auction %}
 <div class="auction-slide">
@@ -13,7 +13,7 @@ Welcome to the Aiken Camellia Society's annual camellia auction. Browse our sele
   </div>
   <div class="auction-details">
     <div class="auction-header">
-      <h2 class="auction-name">{{ camellia.name }}</h2>
+      <h2 class="auction-name">Lot {{ forloop.index}}: {{ camellia.name }}</h2>
       {% if camellia.species and camellia.species != "" %}
       <span class="auction-species">{{ camellia.species }}</span>
       {% endif %}
