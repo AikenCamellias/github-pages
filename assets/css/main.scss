@@ -49,12 +49,15 @@ $footer-background-color: #074727;
   }
   
   @media (max-width: 768px) {
-    .visible-links {
-      display: none !important;
+    flex-direction: column;
+    align-items: center;
+    
+    .site-logo {
+      margin-bottom: 0.5rem;
     }
     
-    .greedy-nav__toggle {
-      display: block !important;
+    .visible-links {
+      justify-content: center;
     }
   }
 }
