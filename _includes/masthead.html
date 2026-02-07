@@ -31,9 +31,29 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Toggle menu">
+          <span class="mobile-menu-toggle__bar"></span>
+          <span class="mobile-menu-toggle__bar"></span>
+          <span class="mobile-menu-toggle__bar"></span>
+        </button>
       </nav>
     </div>
   </div>
+</div>
+
+<!-- Mobile Sidebar Menu -->
+<div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+<div class="mobile-sidebar" id="mobile-sidebar">
+  <button class="mobile-sidebar__close" id="mobile-sidebar-close" type="button" aria-label="Close menu">
+    <span>&times;</span>
+  </button>
+  <ul class="mobile-sidebar__nav">
+    {%- for link in site.data.navigation.main offset:1 -%}
+      <li class="mobile-sidebar__item">
+        <a href="{{ link.url | relative_url }}" class="mobile-sidebar__link">{{ link.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
 </div>
 {% endcapture %}
 {{ masthead_content }}
