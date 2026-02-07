@@ -47,19 +47,6 @@ $footer-background-color: #074727;
       color: $primary-color;
     }
   }
-  
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-    
-    .site-logo {
-      margin-bottom: 0.5rem;
-    }
-    
-    .visible-links {
-      justify-content: center;
-    }
-  }
 }
 
 /* Style tables nicely */
