@@ -4,7 +4,19 @@ title: "2026 Camellia Auction"
 permalink: /auction/
 ---
 
-Join us for our 2026 annual camellia auction on February 12th, 2026 starting at 6:30 PM, in person at the St. Thaddeus Episcopal Church Stevenson-McClelland Parlor, 125 Pendleton St. SW. Browse our lots below!
+#### Date & Time
+Thursday, February 12th, 2026 at 6:30 PM
+<hr />
+
+#### Location
+<a href="https://maps.app.goo.gl/oMqjJeNov4ZUdryA6"> 
+St. Thaddeus Episcopal Church Stevenson-McClelland Parlor     
+125 Pendleton St. SW  
+Aiken, SC 29801</a>
+<hr />
+
+#### Lots
+Browse our camellias for auction below!
 
 {% for camellia in site.data.auction %}
 <div class="auction-slide">
