@@ -1,29 +1,4 @@
 events:
-- description: 'Thursday February 12th, 2026
-
-    Magnolia Dale, from 2:00 PM - 4:00 PM
-
-
-    The Edgefield Camellia Club hosts its traditional tea, sponsored by the Edgefield
-    Camellia Club. Don''t miss out on this opportunity to see hundreds of camellia
-    blooms presented in the rooms of Magnolia Dale, an antebellum home that is the
-    headquarters of the Edgefield Historical Society. Gene Phillips of Gene''s Camellia
-    World will also have his plants for sale at the Edgefield Discovery Center.'
-  end: '2026-02-12T16:00:00-05:00'
-  location: 320 Norris St, Edgefield, SC 29824, USA
-  start: '2026-02-12T14:00:00-05:00'
-  title: Edgefield Camellia Tea
-- description: 'Stevenson McClelland Building, St. Thaddeus Episcopal Church from
-    6:30 - 7:30 
-
-
-    Join us for an evening of Camellias and spirited bidding! We will have many different
-    Camellias donated for auction grown by our own club members. From popular, antique,
-    rare, and newly released varieties, there will be something for everyone!'
-  end: '2026-02-12T19:30:00-05:00'
-  location: 129 Pendleton St SW, Aiken, SC 29801, USA
-  start: '2026-02-12T18:30:00-05:00'
-  title: 'Monthly Meeting: Auction'
 - description: Entries are from 8:00 AM - 10:30 AM. The show will open to the public
     from 1:00 PM - 5:00 PM. See the full show program here: <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Murrells%20Inlet%20Show%20Schedule%20-%202026-II.pdf">https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Murrells%20Inlet%20Show%20Schedule%20-%202026-II.pdf</a>
   end: '2026-02-14T14:00:00-05:00'
@@ -31,4 +6,4 @@ events:
     SC 29576, USA
   start: '2026-02-14T13:00:00-05:00'
   title: Grand Strand Camellia Society Show
-last_updated: '2026-02-12T12:06:03.421815+00:00'
+last_updated: '2026-02-13T11:57:44.251482+00:00'
