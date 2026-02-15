@@ -1,9 +1,2 @@
-events:
-- description: Entries are from 8:00 AM - 10:30 AM. The show will open to the public
-    from 1:00 PM - 5:00 PM. See the full show program here: <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Murrells%20Inlet%20Show%20Schedule%20-%202026-II.pdf">https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Murrells%20Inlet%20Show%20Schedule%20-%202026-II.pdf</a>
-  end: '2026-02-14T14:00:00-05:00'
-  location: Murrells Inlet Community Center, 4462 Murrells Inlet Rd, Murrells Inlet,
-    SC 29576, USA
-  start: '2026-02-14T13:00:00-05:00'
-  title: Grand Strand Camellia Society Show
-last_updated: '2026-02-14T11:44:39.069449+00:00'
+events: []
+last_updated: '2026-02-15T11:44:37.111676+00:00'
