@@ -1,12 +1,4 @@
 events:
-- description: Entries are accepting on Saturday February 10th, from 7:00 AM to 10:00
-    AM.<br> <br>The Show will be open for public viewing,<br>Saturday, from the conclusion
-    of judging until 4:30 PM<br>and Sunday from 1:00 PM until 4:30PM in The Fetterman
-    Building at Massee Lane Gardens<br> <br>Show schedule:  <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Middle%20Georgia%20Camellia%20Society%20Show%20Schedule%20-%202026.pdf">https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Middle%20Georgia%20Camellia%20Society%20Show%20Schedule%20-%202026.pdf</a>
-  end: '2026-02-28T10:00:00-05:00'
-  location: Massee Lane Gardens, 100 Massee Ln, Fort Valley, GA 31030, USA
-  start: '2026-02-28T07:00:00-05:00'
-  title: Middle Georgia Camellia Society Show
 - description: Guest speaker and International Camellia Society Forrest Latta <span>will
     speak on the International Camellia Society’s role, including photos of camellia
     shows in other countries (and how they differ), plus a little preview of the upcoming
@@ -15,4 +7,4 @@ events:
   location: 129 Pendleton St SW, Aiken, SC 29801, USA
   start: '2026-03-12T18:30:00-04:00'
   title: 'Monthly Meeting: Camellias an Internation Language'
-last_updated: '2026-02-28T11:17:50.589038+00:00'
+last_updated: '2026-03-01T11:19:01.606330+00:00'
