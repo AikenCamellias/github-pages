@@ -38,8 +38,8 @@ A collection of resources for camellia enthusiasts.
 ## Local Nurseries and Suppliers
 
 - **[Aiken Country Farm Supply](https://aikencountyfarmsupply.com/)** - A local and family owned farm supply store for your general gardening needs
-- **[Cold Creek Nurseries](https://www.coldcreek.net/)** - An Aiken based nursery
-- **[Bedford Greenhouses](https://www.bedfordgreenhouses.com/)** - An Augusta nursery
+- **[Cold Creek Nurseries](https://www.coldcreek.net/)** - An Aiken nursery and garden supplier
+- **[Bedford Greenhouses](https://www.bedfordgreenhouses.com/)** - An Augusta nursery and garden supplier
 - **[Trusty Farms](https://trustyfarms.square.site/)** - An Aiken nusery specializing in figs, persimmons, and other specialty plants
 - **[Nuseries Caroliniana](https://nurcar.com/)** - A North Augusta mail order nursery specializing in Tea Olives
 - **[Woodlanders](https://woodlanders.net/)** - An Aiken based mail order nursery
