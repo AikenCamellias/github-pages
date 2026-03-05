@@ -22,6 +22,7 @@ A collection of resources for camellia enthusiasts.
 
 - **[Clemson Extension - Camellia](https://hgic.clemson.edu/factsheet/camellia/)** - Care and cultivation information
 - **[Camellia Nomenclature](https://www.americancamellias.com/publications-and-library/southern-california-camellia-society-nomenclature)** - Official camellia variety registry
+- **[Atlantic Coast Camellia Society - Identification Library](https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/pictures-control.html)** - Identification by various characteristics
 
 ## Social Media
 
