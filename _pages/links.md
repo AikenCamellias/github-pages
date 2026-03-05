@@ -29,9 +29,20 @@ A collection of resources for camellia enthusiasts.
 - **[Instagram](https://www.instagram.com/theaikencamelliasociety)** - Follow us on Instagram for updates and photos
 - **[Facebook](https://www.facebook.com/aikencamelliasociety/)** - Like us on Facebook for updates and photos
 
-## Nurseries and Suppliers
+## Specialty Camellia Nurseries
 
-- **[Gene's Camellia World](https://genescamelliaworld.com/collections/all)** - A nursery specializing in camellias
+- **[Gene's Camellia World](https://genescamelliaworld.com/collections/all)** - Our club's own Gene Phillips, call or text for Camellia availability
+- **[Loch Laurel Nursery](http://www.lochlaurelnursery.com/)** - Mark Crawford's Camellia nursery out of Valdosta, GA
+- **[County Line Nursery](https://www.countylinenursery.com/)** - Tommy Alden's specialty nursery out of Byron, GA
+
+## Local Nurseries and Suppliers
+
+- **[Aiken Country Farm Supply](https://aikencountyfarmsupply.com/)** - A local and family owned farm supply store for your general gardening needs
+- **[Trusty Farms](https://trustyfarms.square.site/)** - An Aiken nusery specializing in figs, persimmons, and other specialty plants
+- **[Nuseries Caroliniana](https://nurcar.com/)** - A North Augusta mail order nursery specializing in Tea Olives
+- **[Woodlanders](https://woodlanders.net/)** - An Aiken based mail order nursery
+- **[Bedford Greenhouses](https://www.bedfordgreenhouses.com/)** - An Augusta nursery
+- **[Cold Creek Nurseries](https://www.coldcreek.net/)** - An Aiken based nursery
 
 ---
 
