@@ -32,8 +32,9 @@ A collection of resources for camellia enthusiasts.
 ## Specialty Camellia Nurseries
 
 - **[Gene's Camellia World](https://genescamelliaworld.com/collections/all)** - Our club's own Gene Phillips, call or text for Camellia availability
-- **[Loch Laurel Nursery](http://www.lochlaurelnursery.com/)** - Mark Crawford's Camellia nursery out of Valdosta, GA
-- **[County Line Nursery](https://www.countylinenursery.com/)** - Tommy Alden's specialty nursery out of Byron, GA
+- **[Camellia Forrest Nursery](https://camforest.com/)** - David and Christine Park's Camellia nursery out of Chapel Hill, NC. They specalizes in Camellia sinensis (tea)
+- **[Loch Laurel Nursery](http://www.lochlaurelnursery.com/)** - Mark Crawford's Camellia nursery out of Valdosta, GA. They also carry cold-hardy citrus
+- **[County Line Nursery](https://www.countylinenursery.com/)** - Tommy Alden's specialty nursery out of Byron, GA and many Camellia companion plants
 
 ## Local Nurseries and Suppliers
 
