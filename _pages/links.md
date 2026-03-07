@@ -20,9 +20,10 @@ A collection of resources for camellia enthusiasts.
 
 ## Camellia Care and Identification Resources
 
-- **[Clemson Extension - Camellia](https://hgic.clemson.edu/factsheet/camellia/)** - Care and cultivation information
-- **[Camellia Nomenclature](https://www.americancamellias.com/publications-and-library/southern-california-camellia-society-nomenclature)** - Official camellia variety registry
+- **[Clemson Extension - Camellia](https://hgic.clemson.edu/factsheet/camellia/)** 
+- **[Camellia Nomenclature](https://www.americancamellias.com/publications-and-library/southern-california-camellia-society-nomenclature)** - Official ACS Camellia variety nomenclature 
 - **[Atlantic Coast Camellia Society - Identification Library](https://www.atlanticcoastcamelliasociety.org/Camelliae%20Floris%20Bibliotheca/pictures-control.html)** - Identification by various characteristics
+- **[International Camellia Register](https://camellia.iflora.cn)**
 
 ## Social Media
 
@@ -31,7 +32,7 @@ A collection of resources for camellia enthusiasts.
 
 ## Specialty Camellia Nurseries
 
-- **[Gene's Camellia World](https://genescamelliaworld.com/collections/all)** - Our club's own Gene Phillips, call or text for Camellia availability
+- **[Gene's Camellia World](https://genescamelliaworld.com/pages/about)** - A true Camellia connoisseur's nursery. Contact Gene dirctly for best availability
 - **[Camellia Forrest Nursery](https://camforest.com/)** - David and Christine Park's Camellia nursery out of Chapel Hill, NC. They specalizes in Camellia sinensis (tea)
 - **[Loch Laurel Nursery](http://www.lochlaurelnursery.com/)** - Mark Crawford's Camellia nursery out of Valdosta, GA. They also carry cold-hardy citrus
 - **[County Line Nursery](https://www.countylinenursery.com/)** - Tommy Alden's specialty nursery out of Byron, GA and many Camellia companion plants
