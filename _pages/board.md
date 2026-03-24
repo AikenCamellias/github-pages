@@ -6,12 +6,12 @@ permalink: /board/
 
 The Aiken Camellia Society is led by a dedicated group of volunteers who work to advance our mission and serve our members.
 
-## 2025 - 2026 Officers
+## 2026 - 2027 Officers
 
 | Position | Name |
 |----------|------|
-| President | *Charlotte Wiedenman* |
-| Vice President | *Harrison Howell* |
+| President | *Harrison Howell* |
+| Vice President | *Peggy All* |
 | Secretary | *Karyn Bland* |
 | Treasurer | *Brad Kuhn* |
 
@@ -19,9 +19,9 @@ The Aiken Camellia Society is led by a dedicated group of volunteers who work to
 
 | Name | Term |
 |------|------|
-| *Paul Greenway* | *2025 - 2026* |
-| *Paul Cloessner* | *2025 - 2026* |
-| *Anna Sheets* | *2025 - 2026* |
+| *Paul Greenway* | *2026 - 2027* |
+| *Anna Sheets* | *2026 - 2027* |
+| *Charlotte Wiedenman* | *2026 - 2027* |
 
 ## Committee Chairs
 
@@ -30,7 +30,6 @@ The Aiken Camellia Society is led by a dedicated group of volunteers who work to
 | Membership | *Karyn Bland* |
 | Programs | *Harrison Howell* |
 | Show | *Paul Greenway* |
-| Hospitality | *Peggy All* |
 
 ---
 
