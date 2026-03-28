@@ -1,2 +1,7 @@
-events: []
-last_updated: '2026-03-27T11:40:13.581457+00:00'
+events:
+- description: Please see member email for address.
+  end: '2026-04-09T20:00:00-04:00'
+  location: ''
+  start: '2026-04-09T18:00:00-04:00'
+  title: Garden Gathering at the MoSSurrey
+last_updated: '2026-03-28T11:26:24.256828+00:00'
