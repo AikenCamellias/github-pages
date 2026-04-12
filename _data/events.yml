@@ -1,9 +1,2 @@
-events:
-- description: The Aiken Master Gardener Association will be hosting a plant sale
-    at the Millbrook Baptist Church Gymnasium. This is a great opportunity to meet
-    local gardeners and pick up some unique and native plants at a great price!
-  end: '2026-04-11T12:00:00-04:00'
-  location: Millbrook Baptist Church, 223 S Aiken Blvd, Aiken, SC 29803, USA
-  start: '2026-04-11T09:00:00-04:00'
-  title: AMGA Plant Sale
-last_updated: '2026-04-11T11:28:21.557351+00:00'
+events: []
+last_updated: '2026-04-12T11:32:46.313876+00:00'
