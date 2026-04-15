@@ -1,2 +1,7 @@
-events: []
-last_updated: '2026-04-14T11:56:02.132742+00:00'
+events:
+- description: Information about the event and tickets can be found here: <a href="https://aikengardenshow.org/">https://aikengardenshow.org/</a>
+  end: '2026-05-17'
+  location: Aiken County Historical Museum, 433 Newberry St SW, Aiken, SC 29801, USA
+  start: '2026-05-15'
+  title: The Aiken Garden Show
+last_updated: '2026-04-15T11:55:04.703289+00:00'
