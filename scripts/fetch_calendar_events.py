@@ -28,7 +28,7 @@ def format_event_display(start, end, all_day):
         else:
             display_date = f"{start_date.strftime('%B %-d')} - {end_date.strftime('%B %-d')}"
 
-        return display_date, 'see calendar'
+        return display_date, 'See Calendar'
     else:
         dt_start = datetime.fromisoformat(start)
         dt_end = datetime.fromisoformat(end)
