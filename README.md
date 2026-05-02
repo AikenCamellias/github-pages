@@ -24,10 +24,40 @@ CNAME                # Custom domain configuration
 
 ## Local Development
 
-1. Install Ruby and Bundler
-2. Run `bundle install` to install dependencies
-3. Run `bundle exec jekyll serve` to start local server
-4. Visit `http://localhost:4000`
+### Prerequisites
+
+- [Homebrew](https://brew.sh/) (macOS)
+- [rbenv](https://github.com/rbenv/rbenv) for managing Ruby versions
+
+### Setup
+
+1. Install rbenv and ruby-build:
+   ```bash
+   brew install rbenv ruby-build
+   ```
+
+2. Add rbenv to your shell (add to `~/.zshrc`):
+   ```bash
+   eval "$(rbenv init - zsh)"
+   ```
+
+3. Install the required Ruby version (specified in `.ruby-version`):
+   ```bash
+   rbenv install
+   ```
+
+4. Install dependencies:
+   ```bash
+   gem install bundler
+   bundle install
+   ```
+
+5. Start the local server:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+6. Visit `http://localhost:4000`
 
 ## Customization
 

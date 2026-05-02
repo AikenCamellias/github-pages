@@ -10,8 +10,31 @@ Requires:
 
 import os
 import yaml
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone, date
 from googleapiclient.discovery import build
+
+
+def format_event_display(start, end, all_day):
+    """Return (display_date, display_time) strings for an event."""
+    if all_day:
+        start_date = date.fromisoformat(start)
+        # Google Calendar API end dates for all-day events are exclusive
+        end_date = date.fromisoformat(end) - timedelta(days=1)
+
+        if start_date == end_date:
+            display_date = start_date.strftime('%B %-d')
+        elif start_date.month == end_date.month:
+            display_date = f"{start_date.strftime('%B %-d')} - {end_date.day}"
+        else:
+            display_date = f"{start_date.strftime('%B %-d')} - {end_date.strftime('%B %-d')}"
+
+        return display_date, 'see calendar'
+    else:
+        dt_start = datetime.fromisoformat(start)
+        dt_end = datetime.fromisoformat(end)
+        display_date = dt_start.strftime('%B %-d, %Y')
+        display_time = f"{dt_start.strftime('%I:%M %p')} - {dt_end.strftime('%I:%M %p')}"
+        return display_date, display_time
 
 
 def fetch_events():
@@ -39,10 +62,17 @@ def fetch_events():
     for event in events_result.get('items', []):
         start = event['start'].get('dateTime', event['start'].get('date'))
         end = event['end'].get('dateTime', event['end'].get('date'))
+        all_day = 'date' in event['start']
+
+        display_date, display_time = format_event_display(start, end, all_day)
+
         events.append({
             'title': event.get('summary', 'Untitled Event'),
             'start': start,
             'end': end,
+            'all_day': all_day,
+            'display_date': display_date,
+            'display_time': display_time,
             'location': event.get('location', ''),
             'description': event.get('description', '')
         })

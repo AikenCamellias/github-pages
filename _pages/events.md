@@ -11,7 +11,7 @@ Stay up to date with Aiken Camellia Society meetings, shows, and events.
 {% if site.data.events.events.size > 0 %}
 | Date | Time | Event | Location |
 |------|------|-------|----------|
-{% for event in site.data.events.events %}| {{ event.start | date: "%B %d, %Y" }} | {{ event.start | date: "%I:%M %p" }} - {{ event.end | date: "%I:%M %p" }} | {{ event.title }} | {{ event.location }} |
+{% for event in site.data.events.events %}| {{ event.display_date }} | {{ event.display_time }} | {{ event.title }} | {{ event.location }} |
 {% endfor %}
 
 *Last updated: {{ site.data.events.last_updated | date: "%B %d, %Y at %I:%M %p" }} UTC*
