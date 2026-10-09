@@ -1,13 +1,5 @@
 events:
 - all_day: false
-  description: ''
-  display_date: October 8, 2026
-  display_time: 06:30 PM - 07:30 PM
-  end: '2026-10-08T19:30:00-04:00'
-  location: 129 Pendleton St SW, Aiken SC 29801
-  start: '2026-10-08T18:30:00-04:00'
-  title: Aiken Camellia Society Meeting
-- all_day: false
   description: <p>Presented by the Sand Hills Garden Club, a member of the Garden
     Club of America, come experience elaborate floral designs, horticulture, photography,
     and educational displays as artists from across the nation present designs inspired
@@ -31,4 +23,4 @@ events:
   location: Morris Museum of Art, 1 10th St 2nd floor, Augusta, GA 30901, USA
   start: '2026-10-15T10:00:00-04:00'
   title: 'Southern Exposure: A GCA Flower Show'
-last_updated: '2026-10-08T17:42:04.253473+00:00'
+last_updated: '2026-10-09T17:18:21.330261+00:00'
