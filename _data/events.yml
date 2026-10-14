@@ -6,10 +6,10 @@ events:
     by artwork from the museum’s collection.</p><p><strong>FREE and open to the public. </strong></p><p>Wednesday,
     October 14, 1:00–5:00 p.m. and Thursday, October 15, 10:00 a.m.–5:00 p.m.<strong></strong></p>
   display_date: October 14, 2026
-  display_time: 01:00 PM - 05:00 PM
-  end: '2026-10-14T17:00:00-04:00'
+  display_time: 02:00 PM - 06:00 PM
+  end: '2026-10-14T18:00:00-04:00'
   location: Morris Museum of Art, 1 10th St 2nd floor, Augusta, GA 30901, USA
-  start: '2026-10-14T13:00:00-04:00'
+  start: '2026-10-14T14:00:00-04:00'
   title: 'Southern Exposure: A GCA Flower Show'
 - all_day: false
   description: <p>Presented by the Sand Hills Garden Club, a member of the Garden
@@ -23,4 +23,12 @@ events:
   location: Morris Museum of Art, 1 10th St 2nd floor, Augusta, GA 30901, USA
   start: '2026-10-15T10:00:00-04:00'
   title: 'Southern Exposure: A GCA Flower Show'
-last_updated: '2026-10-13T17:55:42.084051+00:00'
+- all_day: false
+  description: ''
+  display_date: November 12, 2026
+  display_time: 06:30 PM - 07:30 PM
+  end: '2026-11-12T19:30:00-05:00'
+  location: 129 Pendleton St SW, Aiken SC 29801
+  start: '2026-11-12T18:30:00-05:00'
+  title: Aiken Camellia Society Meeting
+last_updated: '2026-10-14T15:41:31.933514+00:00'
