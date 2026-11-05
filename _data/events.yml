@@ -1,13 +1,40 @@
 events:
+- all_day: true
+  description: '<span>November 7, 2026</span><br><span> </span><br><span>Virginia
+    Camellia Society</span><br><span><br>Norfolk Botanical Gardens, 6700 Azalea Garden
+    Road, Norfolk, VA 23518</span><br><span><br>Show Chair/Contact: Toni McKenna</span><br><span><br>Head
+    Judge(s)/Judges'' Chairperson(s): Fred McKenna</span><br><span><br>Show Schedule:
+    <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/VCS+Show+Schedule+-+Fall+2026.pdf"
+    target="_blank">Virginia Camellia Society Show Schedule - Fall 2026</a></span>'
+  display_date: November 7
+  display_time: '[See Calendar](/events/#calendar)'
+  end: '2026-11-08'
+  location: 6700 Azalea Garden Rd, Norfolk, VA 23518, USA
+  start: '2026-11-07'
+  title: Virginia Camellia Society
+- all_day: true
+  description: '<span>November 7-8, 2026</span><br><span> </span><br><span>Wiregrass
+    Camellia Society</span><br><span><br>Colquitt County Art Center, 401 7th Avenue
+    SW, Moultrie, GA 31768</span><br><span><br>Show Chair/Contact: Maureen Price &amp;
+    Sandra Jones</span><br><span><br>Head Judge(s)/Judges'' Chairperson(s): Patti
+    Niewoehner</span><br><span><br>Show Schedule: <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Wiregrass
+    Fall Camellia Show Schedule Fall 2026 - I.pdf">Wiregrass Camellia Society Show
+    Schedule - Fall 2026</a></span>'
+  display_date: November 7
+  display_time: '[See Calendar](/events/#calendar)'
+  end: '2026-11-08'
+  location: 401 7th Ave SW, Moultrie, GA 31768, USA
+  start: '2026-11-07'
+  title: Wiregrass Camellia Society
 - all_day: false
-  description: '<br>November Program: Year round gardening with Theaceae <br> <br>Thursday,
-    November 12th, 2026 from 6:30 PM - 7:30 PM <br>Stevenson McClelland Building,
-    St. Thaddeus Episcopal Church <br><a href="https://www.google.com/maps/place/129+Pendleton+St+SW,+Aiken,+SC+29801/@33.561355,-81.724648,793m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88f84d062d7c30eb:0x239d6633569e1a7b!8m2!3d33.561355!4d-81.724648!16s%2Fg%2F11c1h00qhb?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D">129
-    Pendleton St SW</a> <br>Aiken SC 29801<p>Camellias belong to the family Theaceae.
-    In addition to traditional Camellias, Theaceae includes many different flowering
-    shrubs. Jonas Meyer, the plant curator of Woodlanders, will introduce these plants
-    and show us how to have flowers blooming year round!</p><p>Jonas will also bring
-    plants from his presentation to sell at the meeting including:</p><p>Gordonia
+  description: '<br>November Program: Year round gardening with Theaceae <br><br>Thursday,
+    November 12th, 2026 from 6:30 PM - 7:30 PM <br><br>Stevenson McClelland Building,
+    St. Thaddeus Episcopal Church <br><br><a href="https://www.google.com/maps/place/129+Pendleton+St+SW,+Aiken,+SC+29801/@33.561355,-81.724648,793m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88f84d062d7c30eb:0x239d6633569e1a7b!8m2!3d33.561355!4d-81.724648!16s%2Fg%2F11c1h00qhb?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D">129
+    Pendleton St SW</a> <br>Aiken SC 29801<span><p>Camellias belong to the family
+    Theaceae. In addition to traditional Camellias, Theaceae includes many different
+    flowering shrubs. Jonas Meyer, the plant curator of Woodlanders, will introduce
+    these plants and show us how to have flowers blooming year round!</p><p>Jonas
+    will also bring plants from his presentation to sell at the meeting including:</p><p>Gordonia
     lasianthus <br>Gordlinia ‘Sweet Tea’<br>Camellia japonica (single) <br>Camellia
     saluenensis ‘Appleblossom’<br>Camellia ‘Crimson Candles’ <br>Camellia ‘Jury’s
     Yellow’<br>Camellia ‘California Dawn’<br>Camellia edithae <br>Camellia sasanqua
@@ -16,12 +43,25 @@ events:
     up at our November meeting, remember to specify this when checking out on their
     website.</p><p><br>A raffle will be held at the meeting for a "Star Above Star",
     "Gay Baby", and additional camellias for you to add to your garden.</p><p><br>See
-    the meeting agenda <a href="https://docs.proton.me/doc?mode=open-url&token=D42878MP5M&linkId=KHb7sTj0fxw4kXUMS_V6Ma8CJApq1hkLGM7AhV2ZmwJBXTGW-IhZGtUR1wBHZP33i_3u8GquD8TYnNxGDU95gQ%3D%3D#tE2OCbdYMGqx"
-    target="_blank">here</a></p>'
+    the meeting agenda <a href="https://drive.proton.me/urls/VQMB2M65KW#Kgv95Zw8YPP1"
+    target="_blank">here</a></p></span>'
   display_date: November 12, 2026
   display_time: 06:30 PM - 07:30 PM
   end: '2026-11-12T19:30:00-05:00'
   location: 129 Pendleton St SW, Aiken SC 29801
   start: '2026-11-12T18:30:00-05:00'
   title: Aiken Camellia Society Meeting
-last_updated: '2026-11-04T18:27:13.706064+00:00'
+- all_day: true
+  description: '<span>December 5, 2026</span><br><span> </span><br><span>Ozone Camellia
+    Club<br>Slidell City Auditorium, 2055 2nd Street, Slidell, LA 70458</span><br><span><br>Show
+    Chair/Contact: Robert Taylor</span><br><span><br>Head Judge(s)/Judges'' Chairperson(s):
+    Karyn K. Taylor</span><br><span><br>Show Schedule: <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Ozone
+    Camellia Society Show Schedule - Fall 2026.pdf">Ozone Camellia Society Show Schedule
+    - Fall 2026</a></span>'
+  display_date: December 5
+  display_time: '[See Calendar](/events/#calendar)'
+  end: '2026-12-06'
+  location: Slidell City Hall, 2055 2nd St, Slidell, LA 70458, USA
+  start: '2026-12-05'
+  title: Ozone Camellia Club
+last_updated: '2026-11-05T18:30:37.374506+00:00'
