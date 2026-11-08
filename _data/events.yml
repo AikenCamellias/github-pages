@@ -1,31 +1,4 @@
 events:
-- all_day: true
-  description: '<span>November 7, 2026</span><br><span> </span><br><span>Virginia
-    Camellia Society</span><br><span><br>Norfolk Botanical Gardens, 6700 Azalea Garden
-    Road, Norfolk, VA 23518</span><br><span><br>Show Chair/Contact: Toni McKenna</span><br><span><br>Head
-    Judge(s)/Judges'' Chairperson(s): Fred McKenna</span><br><span><br>Show Schedule:
-    <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/VCS+Show+Schedule+-+Fall+2026.pdf"
-    target="_blank">Virginia Camellia Society Show Schedule - Fall 2026</a></span>'
-  display_date: November 7
-  display_time: '[See Calendar](/events/#calendar)'
-  end: '2026-11-08'
-  location: 6700 Azalea Garden Rd, Norfolk, VA 23518, USA
-  start: '2026-11-07'
-  title: Virginia Camellia Society
-- all_day: true
-  description: '<span>November 7-8, 2026</span><br><span> </span><br><span>Wiregrass
-    Camellia Society</span><br><span><br>Colquitt County Art Center, 401 7th Avenue
-    SW, Moultrie, GA 31768</span><br><span><br>Show Chair/Contact: Maureen Price &amp;
-    Sandra Jones</span><br><span><br>Head Judge(s)/Judges'' Chairperson(s): Patti
-    Niewoehner</span><br><span><br>Show Schedule: <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Wiregrass
-    Fall Camellia Show Schedule Fall 2026 - I.pdf">Wiregrass Camellia Society Show
-    Schedule - Fall 2026</a></span>'
-  display_date: November 7
-  display_time: '[See Calendar](/events/#calendar)'
-  end: '2026-11-08'
-  location: 401 7th Ave SW, Moultrie, GA 31768, USA
-  start: '2026-11-07'
-  title: Wiregrass Camellia Society
 - all_day: false
   description: '<br>November Program: Year round gardening with Theaceae <br><br>Thursday,
     November 12th, 2026 from 6:30 PM - 7:30 PM <br><br>Stevenson McClelland Building,
@@ -64,4 +37,4 @@ events:
   location: Slidell City Hall, 2055 2nd St, Slidell, LA 70458, USA
   start: '2026-12-05'
   title: Ozone Camellia Club
-last_updated: '2026-11-07T16:43:34.120847+00:00'
+last_updated: '2026-11-08T16:54:29.047780+00:00'
