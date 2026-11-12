@@ -45,4 +45,17 @@ events:
   location: 129 Pendleton St SW, Aiken, SC 29801, USA
   start: '2026-12-10T18:30:00-05:00'
   title: Club Meeting - The Ecology and Management of Hitchcock Woods
-last_updated: '2026-11-11T18:22:09.624530+00:00'
+- all_day: true
+  description: '<span>December 12, 2026</span><br><span> </span><br><span>Pensacola
+    Camellia Club<br>Jean &amp; Paul Amos Performance Center, 1000 College Blvd, Bldg
+    23, Pensacola, FL 32504</span><br><span><br>Show Chair/Contact: Christi Hankins</span><br><span><br>Show
+    Schedule: <a href="https://acs-cdn-e0eee5cdezb2dqdm.z03.azurefd.net/assets/Pensacola
+    Camellia Club Show Schedule - 2026.pdf">Pensacola Camellia Club Show Schedule
+    - 2026</a></span>'
+  display_date: December 12
+  display_time: '[See Calendar](/events/#calendar)'
+  end: '2026-12-13'
+  location: 1000 College Blvd bldg 23, Pensacola, FL 32504, USA
+  start: '2026-12-12'
+  title: Pensacola Camellia Club
+last_updated: '2026-11-12T18:40:35.826953+00:00'
