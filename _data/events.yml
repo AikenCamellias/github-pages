@@ -1,29 +1,19 @@
 events:
 - all_day: false
-  description: '<br>November Program: Year round gardening with Theaceae <br><br>Thursday,
-    November 12th, 2026 from 6:30 PM - 7:30 PM <br><br>Stevenson McClelland Building,
-    St. Thaddeus Episcopal Church <br><br><a href="https://www.google.com/maps/place/129+Pendleton+St+SW,+Aiken,+SC+29801/@33.561355,-81.724648,793m/data=!3m2!1e3!4b1!4m6!3m5!1s0x88f84d062d7c30eb:0x239d6633569e1a7b!8m2!3d33.561355!4d-81.724648!16s%2Fg%2F11c1h00qhb?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D">129
-    Pendleton St SW</a> <br>Aiken SC 29801<span><p>Camellias belong to the family
-    Theaceae. In addition to traditional Camellias, Theaceae includes many different
-    flowering shrubs. Jonas Meyer, the plant curator of Woodlanders, will introduce
-    these plants and show us how to have flowers blooming year round!</p><p>Jonas
-    will also bring plants from his presentation to sell at the meeting including:</p><p>Gordonia
-    lasianthus <br>Gordlinia ‘Sweet Tea’<br>Camellia japonica (single) <br>Camellia
-    saluenensis ‘Appleblossom’<br>Camellia ‘Crimson Candles’ <br>Camellia ‘Jury’s
-    Yellow’<br>Camellia ‘California Dawn’<br>Camellia edithae <br>Camellia sasanqua
-    ‘Leslie Ann’<br>Camellia sinensis rosea <br>Camellia japonica ‘Kujaku Tsubaki’<br>Camellia
-    oleifera</p><p>Additionally online orders placed with Woodlanders can be picked
-    up at our November meeting, remember to specify this when checking out on their
-    website.</p><p><br>A raffle will be held at the meeting for a "Star Above Star",
-    "Gay Baby", and additional camellias for you to add to your garden.</p><p><br>See
-    the meeting agenda <a href="https://drive.proton.me/urls/VQMB2M65KW#Kgv95Zw8YPP1"
-    target="_blank">here</a></p></span>'
-  display_date: November 12, 2026
-  display_time: 06:30 PM - 07:30 PM
-  end: '2026-11-12T19:30:00-05:00'
-  location: 129 Pendleton St SW, Aiken SC 29801
-  start: '2026-11-12T18:30:00-05:00'
-  title: 'Club Meeting - Year round gardening with Theaceae '
+  description: <h2>Gibbing Demonstration and Giveaway</h2><h4>Saturday, November 14th
+    from 10:00 AM - 11:00 AM </h4><h4>Hopelands Gardens</h4><h4><a href="https://m3w6d.r.bh.d.sendibt3.com/mk/cl/f/sh/6rqJfgqBpdQZRTyxGXxF61dspaD/aoJ8FxN9c_AX"
+    target="_blank">135 Dupree Place </a> </h4><h4><a href="https://www.google.com/maps/search/135+Dupree+Place+Aiken+SC+29801?entry=gmail&amp;source=g">Aiken
+    SC 29801</a></h4><p>Gibbing a Camellia encourages plants to bloom earlier and
+    with larger flowers. The process is simple and rewarding! The Aiken Camellia Society
+    will meet at the Hopelands Gardens Camellia walk near the entrance to instruct
+    members on the process. Participants will receive gib and practice on the plants
+    in the garden. </p>
+  display_date: November 14, 2026
+  display_time: 10:00 AM - 11:00 AM
+  end: '2026-11-14T11:00:00-05:00'
+  location: Hopelands Gardens, 135 Dupree Pl, Aiken, SC 29801, USA
+  start: '2026-11-14T10:00:00-05:00'
+  title: Gibbing Demonstration
 - all_day: true
   description: '<span>December 5, 2026</span><br><span> </span><br><span>Ozone Camellia
     Club<br>Slidell City Auditorium, 2055 2nd Street, Slidell, LA 70458</span><br><span><br>Show
@@ -58,4 +48,4 @@ events:
   location: 1000 College Blvd bldg 23, Pensacola, FL 32504, USA
   start: '2026-12-12'
   title: Pensacola Camellia Club
-last_updated: '2026-11-12T18:40:35.826953+00:00'
+last_updated: '2026-11-13T18:21:21.929347+00:00'
