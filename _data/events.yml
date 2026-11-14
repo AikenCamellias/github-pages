@@ -1,19 +1,4 @@
 events:
-- all_day: false
-  description: <h2>Gibbing Demonstration and Giveaway</h2><h4>Saturday, November 14th
-    from 10:00 AM - 11:00 AM </h4><h4>Hopelands Gardens</h4><h4><a href="https://m3w6d.r.bh.d.sendibt3.com/mk/cl/f/sh/6rqJfgqBpdQZRTyxGXxF61dspaD/aoJ8FxN9c_AX"
-    target="_blank">135 Dupree Place </a> </h4><h4><a href="https://www.google.com/maps/search/135+Dupree+Place+Aiken+SC+29801?entry=gmail&amp;source=g">Aiken
-    SC 29801</a></h4><p>Gibbing a Camellia encourages plants to bloom earlier and
-    with larger flowers. The process is simple and rewarding! The Aiken Camellia Society
-    will meet at the Hopelands Gardens Camellia walk near the entrance to instruct
-    members on the process. Participants will receive gib and practice on the plants
-    in the garden. </p>
-  display_date: November 14, 2026
-  display_time: 10:00 AM - 11:00 AM
-  end: '2026-11-14T11:00:00-05:00'
-  location: Hopelands Gardens, 135 Dupree Pl, Aiken, SC 29801, USA
-  start: '2026-11-14T10:00:00-05:00'
-  title: Gibbing Demonstration
 - all_day: true
   description: '<span>December 5, 2026</span><br><span> </span><br><span>Ozone Camellia
     Club<br>Slidell City Auditorium, 2055 2nd Street, Slidell, LA 70458</span><br><span><br>Show
@@ -48,4 +33,4 @@ events:
   location: 1000 College Blvd bldg 23, Pensacola, FL 32504, USA
   start: '2026-12-12'
   title: Pensacola Camellia Club
-last_updated: '2026-11-13T18:21:21.929347+00:00'
+last_updated: '2026-11-14T16:50:28.994349+00:00'
